@@ -11,9 +11,9 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/driver/sqlite"
 	"gorm.io/driver/sqlserver"
-	"gorm.io/gorm"
-	"gorm.io/gorm/logger"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/Ungchi/gorm"
+	"github.com/Ungchi/gorm/logger"
+	. "github.com/Ungchi/gorm/utils/tests"
 )
 
 var DB *gorm.DB

@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"testing"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/Ungchi/gorm"
+	. "github.com/Ungchi/gorm/utils/tests"
 )
 
 func TestSoftDelete(t *testing.T) {

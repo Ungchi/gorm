@@ -9,9 +9,9 @@ import (
 	"regexp"
 	"strings"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
+	"github.com/Ungchi/gorm"
+	"github.com/Ungchi/gorm/clause"
+	"github.com/Ungchi/gorm/schema"
 )
 
 var (

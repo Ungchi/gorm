@@ -12,10 +12,10 @@ import (
 
 	"gorm.io/driver/postgres"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/schema"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/Ungchi/gorm"
+	"github.com/Ungchi/gorm/logger"
+	"github.com/Ungchi/gorm/schema"
+	. "github.com/Ungchi/gorm/utils/tests"
 )
 
 func TestMigrate(t *testing.T) {

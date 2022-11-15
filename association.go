@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"strings"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/Ungchi/gorm/clause"
+	"github.com/Ungchi/gorm/schema"
+	"github.com/Ungchi/gorm/utils"
 )
 
 // Association Mode contains some helper methods to handle relationship things easily.
